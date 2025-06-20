@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kanhaiya Kumar | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Kanhaiya Kumar</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="toggle-theme" title="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Hello, I'm Kanhaiya 👋</h2>
+    <p>Fullstack Developer | Java | React | Spring Boot</p>
+  </section>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <p>Well-qualified Fullstack developer with 3.5+ years of experience in frontend & backend, APIs, and dev tools. Collaborative team player delivering secure, scalable solutions.</p>
+  </section>
+
+  <section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Backend:</strong> Java, Spring Boot, Hibernate, Microservices, API Gateway, Fortify, Sonarqube, SwaggerHub</li>
+      <li><strong>Frontend:</strong> React, Microfrontends, Redux, HTML, CSS, JS, Bootstrap, Enzyme, Jest</li>
+      <li><strong>Tools:</strong> Jenkins, Bitbucket, Git, Postman, NGINX, AppDynamics, Splunk</li>
+      <li><strong>Database:</strong> MySQL</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <h3>Software Development Analyst (Accenture)</h3>
+    <ul>
+      <li>Monitored applications across geographies for data capture and system health.</li>
+      <li>Collaborated on onboarding, UI/backend enhancements, and config updates.</li>
+      <li>Fixed security issues and participated in major project transitions.</li>
+    </ul>
+    <h3>Software Developer (Birlasoft)</h3>
+    <ul>
+      <li>Worked with banking client on credit card system revamp.</li>
+      <li>Built dynamic frontend with URL-based delivery.</li>
+      <li>Improved security and system performance.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <ul>
+      <li><strong>Email:</strong> kanhaiyakumar95@gmail.com</li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kanhaiya-kumar95/">Profile</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/kanhaiyakumar95">Profile</a></li>
+      <li><strong>Mobile:</strong> +91 8792558858</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kanhaiya Kumar</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>

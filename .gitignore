@@ -1,0 +1,4 @@
+# Ignore backup/system files
+.DS_Store
+*.zip
+*.tar.gz
